@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#DADADA"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AvengerActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/avengers">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/avenge"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/heroName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/avenge"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/heroImage"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:clickable="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/heroMotto"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/avenge"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/practiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#B8B8B8"
+        android:fontFamily="@font/avenge"
+        android:paddingTop="10dp"
+        android:text="Start Practice">
+
+    </Button>
+
+
+</LinearLayout>
